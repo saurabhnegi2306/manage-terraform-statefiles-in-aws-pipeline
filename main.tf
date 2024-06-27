@@ -11,6 +11,11 @@ resource "aws_s3_bucket" "s3_bucket_backend" {
   bucket = var.s3_bucket_name
 }
 
+resource "aws_s3_bucket" "s3_bucket_new" {
+  bucket = "test-bucket-terraform"
+}
+
+
 resource "aws_s3_bucket_acl" "s3_bucket_backend_acl" {
   depends_on = [aws_s3_bucket_ownership_controls.s3_bucket_acl_ownership]
   bucket     = aws_s3_bucket.s3_bucket_backend.id
