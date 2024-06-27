@@ -1,4 +1,4 @@
-#terraform {
+terraform {
 #  backend "s3" {
 #    bucket         = "tfbackend-bucket-saurabhnegi1"
 #    key            = "terraform.tfstate"
