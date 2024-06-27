@@ -1,8 +1,8 @@
 terraform {
   backend "s3" {
-    bucket         = "tfbackend-bucket"
+    bucket         = "tfbackend-bucket-saurabhnegi"
     key            = "terraform.tfstate"
-    region         = "eu-central-1"
+    region         = "us-west-1"
     dynamodb_table = "tfstate-lock"
     encrypt        = true
   }
