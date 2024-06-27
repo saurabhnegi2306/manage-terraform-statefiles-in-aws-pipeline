@@ -6,6 +6,6 @@ terraform {
 #    dynamodb_table = "tfstate-lock"
 #    encrypt        = true
   backend "local" {
-    path = "./terraform.tfstate"
+    path = "./terraform.tfstatefile"
   }
 }
