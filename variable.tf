@@ -10,7 +10,7 @@ variable "codecommit_repository_url" {
 
 variable "s3_bucket_name" {
   type    = string
-  default = "tfbackend-bucket-saurabhnegi"
+  default = "tfbackend-bucket-saurabhnegi1"
 }
 
 variable "compute_type" {
