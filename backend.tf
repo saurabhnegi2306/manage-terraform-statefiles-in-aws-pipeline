@@ -5,9 +5,7 @@
 #    region         = "us-west-1"
 #    dynamodb_table = "tfstate-lock"
 #    encrypt        = true
-#  }
-#}
-
   backend "local" {
     path = "./terraform.tfstate"
   }
+}
