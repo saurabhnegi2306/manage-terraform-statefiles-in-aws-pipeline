@@ -12,7 +12,7 @@ resource "aws_s3_bucket" "s3_bucket_backend" {
 }
 
 resource "aws_s3_bucket" "s3_bucket_new" {
-  bucket = "test-bucket-terraform"
+  bucket = "test-bucket-terraform-saurabhnegi"
 }
 
 
